@@ -60,7 +60,7 @@ L R R1
 U 1 1 56DD38A0
 P 6000 3300
 F 0 "R1" V 6080 3300 50  0000 C CNN
-F 1 "R" V 6000 3300 50  0000 C CNN
+F 1 "1k" V 6000 3300 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 5930 3300 30  0001 C CNN
 F 3 "" H 6000 3300 30  0000 C CNN
 	1    6000 3300
@@ -161,4 +161,32 @@ Connection ~ 6950 2850
 Wire Wire Line
 	8200 3200 8200 2850
 Connection ~ 8200 2850
+$Comp
+L Test_point_loop_1.32mm TP1
+U 1 1 56E1F83D
+P 7600 2800
+F 0 "TP1" H 7750 3100 60  0000 C CNN
+F 1 "Test_point_loop_1.32mm" H 8200 2950 60  0000 C CNN
+F 2 "nightmechanic_pcb:Test_point_glass_1.32" H 7600 2800 60  0001 C CNN
+F 3 "http://www.e-markinc.com/images/EmarkCatalog.pdf" H 7600 3200 60  0001 C CNN
+	1    7600 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Test_point_loop_1.32mm TP2
+U 1 1 56E1F8AE
+P 7600 4050
+F 0 "TP2" H 7750 4350 60  0000 C CNN
+F 1 "Test_point_loop_1.32mm" H 8200 4200 60  0000 C CNN
+F 2 "nightmechanic_pcb:Test_point_glass_1.32" H 7600 4050 60  0001 C CNN
+F 3 "http://www.e-markinc.com/images/EmarkCatalog.pdf" H 7600 4450 60  0001 C CNN
+	1    7600 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 2800 7600 2850
+Connection ~ 7600 2850
+Wire Wire Line
+	7600 4050 7600 4100
+Connection ~ 7600 4100
 $EndSCHEMATC

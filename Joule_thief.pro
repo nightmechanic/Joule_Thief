@@ -1,4 +1,4 @@
-update=2016 March 10, Thursday 21:36:15
+update=3/11/2016 2:26:18 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -59,3 +57,6 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=/Users/rankatz/github/nightmechanic_lib/nightmechanic_lib
+LibName31=E:/GitHub/nightmechanic_lib/nightmechanic_lib
+[general]
+version=1
